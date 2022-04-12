@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+/*
+
+Existem diversas formas de aplicar
+Estilo CSS aos elementos HTML
+Para isto, fazemos uso dos seletores
+Podemos utilizar o seletor para
+aplicar estilo a um elemento em 
+especifico, a todos os elementos
+do mesmo tipo, uma classe de elementos 
+ou até mesmo seletores mais sofisticados
+e elaborados.
+
+Resetando o CSS... 
+
+*/
+body{
+    background-color: #CCCCCC;
+    font-family: "Mukta";
+    margin: 0px auto;
+    max-width: 900px;
+    border: solid;
+    border-color: rgb(151, 145, 145);
+}
+header{
+    background-color: rgb(149, 46, 158);
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+header h2{
+    margin: 0px;
+}
+h1{
+    font-size: 72px;
+    margin: 0px;
+}
+h2{
+    font-size: 24px;
+    margin: 0px;
+    text-align: center;
+    color: #f4a631
+}
+h3{
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+    color: #f4a631;
+}
